@@ -1,0 +1,151 @@
+
+
+ on loading web-page , 
+ browser will create object-model using DOM API
+ 
+ 
+ by default DOM is static
+ 
+ 
+ ---------------
+ 
+ what js can do on HTML-page ?
+ 
+ using DOM API
+ 
+ --> can create/retreive/update/delete HTML elements.
+ --> can change element's attribute values
+ --> can change element's text content
+ --> can change element's css-style
+ 
+ using XHR API
+ 
+ --> can communicate with server async , update results in existing page ( AJAX )
+ 
+ using HTML-5 APIs
+ 
+  --> canvas
+  --> audio/video
+  --> Local-storage support
+  --> geo
+  
+  --> websocket support
+  
+  --> WebgGL
+ 
+ 
+ -----------------------------------
+ 
+ 
+ 
+   JS --> using Web APIs can do/bring any functionality to HTML page.
+   
+   
+ ---------------------------------  
+ 
+ 
+ How JS executing browser envi ?
+ 
+ 
+  what is JS ?
+  
+  --> single-threaded
+  --> non-blocking
+  --> concurrent
+  --> asynchronous
+ 
+ 
+  what is JS-envi ?
+  
+  browser
+  
+       1.Js Runtime/Engine  e.g in chrome has 'v8' engine
+       
+         -> Stack
+         -> Heap
+       
+       2. Event-Loop
+       3. Callback-Queue
+       
+       4. Web APIs Impl
+       
+       ---------------------------------------------------
+       
+       
+       single-thread == single call-stack == single-action
+       
+       ---------------------------------------------------
+       
+         
+       refer
+       
+       
+             MDN javascript concurrency  blog
+             
+             and
+             
+             
+             latent loupe -> simulator
+             
+       -------------------------------------------------
+       
+       
+       
+       Limitations on plain-JS functionality:-
+       
+       --> browser compatibility
+       --> too much code even for simeple oprn.
+       --> performance and memory issues
+       --> code organization  is difficult
+       
+       ............
+       
+       
+       soln:
+       
+           -> JS libraries
+           
+              ->jQuery
+           
+                limitations using jQuery
+                
+                --> too low-level
+                --> code organization too difficult
+                --> very difficult to use on big-projects    
+               
+         
+            -> JS F.Ws  based ( MVC / MVVM )
+            
+               -> YUI
+               -> backbone JS
+               -> Angular
+               -> Ember
+               -> KO
+               
+               -> DOJO
+               -> EXTJS
+               
+               
+                etc....
+                
+                
+           --------------------------     
+            
+              
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
